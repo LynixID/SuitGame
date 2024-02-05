@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traditional Suit Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="layar-game">
+          <div class="frame">
+            <div class="comp">
+              <h3>Komp : <span class="comp">0</span></h3>
+              <div class="gambar"></div>
+            </div>
+            <div class="hasil">
+              <h2>?</h2>
+            </div>
+            <div class="user">
+              <div class="gambar"></div>
+              <h3>Kamu : <span class="user">0</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="layar-pilihan">
+          <h2>Pilihan Kamu</h2>
+          <div class="pilih">
+            <div class="kertas"></div>
+            <div class="batu"></div>
+            <div class="gunting"></div>
+          </div>
+        </div>
+        <div class="start-game">
+          <div class="menu">
+            <button id="mulai">Mulai Game</button>
+            <button id="panduan">Panduan Bermain</button>
+          </div>
+        </div>
+        <div class="panduan">
+          <h1>X</h1>
+          <div class="kotak-pandu">
+            <ol>
+              <li>
+                Pemain akan memilih sesuai pilihan yang tertera (kertas, batu,
+                atau gunting).
+              </li>
+              <li>
+                Dengan aturan permainan (kertas > batu > gunting > kertas ...).
+              </li>
+              <li>
+                Permainan akan dinyatakan menang atau kalah ketika skor mencapai
+                5.
+              </li>
+              <li>
+                Skor akan otomatis ter-reset jika salah satu pemain telah
+                mencapai kemenangan.
+              </li>
+              <li>Selamat Bermain 😉.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
